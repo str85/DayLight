@@ -794,8 +794,8 @@ TX
 ```
 
 ###### ForexOrders
-| ID        | UserId | BuyCurrencyId  | Price | Amount |  SellCurrencyId |  
-| ------------- |-------------|-------------|-------------|-------------|-------------|
+| ID        | UserId | BuyCurrencyId  | Price | Amount |  SellCurrencyId |  EmptyBlockId | DelBlockId
+| ------------- |-------------|-------------|-------------|-------------|-------------|-------------|-------------|
 
 
 
