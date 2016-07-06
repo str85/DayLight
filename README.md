@@ -172,17 +172,30 @@ TX
 | ID        | Name           | Description  | Time  | 
 | ------------- |-------------| -----|-----|
 
-### Выбор главы гос-ва
+### Голосование за партии
 
 ```
 TX
- * ID гражданина, который будет выбран главой гос-ва
+ * ID партии
  * ID голосующего гражданина
  * Подпись голосующего гражданина
  ```
 
-###### VoteHeadOfStateHistory
-| ID        | UserId           | VoteUserId  | Time  |
+###### VotePoliticalPartiesHistory
+| ID        | UserId           | PoliticalPartyId  | Time  | BlockId  |
+| ------------- |-------------| -----|-----|
+
+### Голосование за сенаторов
+
+```
+TX
+ * ID гржданина
+ * ID голосующего гражданина
+ * Подпись голосующего гражданина
+ ```
+
+###### VoteSenatorsHistory
+| ID        | UserId           | VoteUserId  | Time  | BlockId  |
 | ------------- |-------------| -----|-----|
 
 
