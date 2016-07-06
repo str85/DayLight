@@ -225,8 +225,7 @@ TX
  * Подпись главы гос-ва
  ```
 
-######
-StateOptions
+###### StateOptions
 | CountryId        | Options           | PresidentUserId  |
 | ------------- |-------------| -----|
 
