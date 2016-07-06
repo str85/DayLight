@@ -184,7 +184,7 @@ TX
 
 ###### VotePoliticalPartiesHistory
 | ID        | UserId           | PoliticalPartyId  | Time  | BlockId  |
-| ------------- |-------------| -----|-----|
+| ------------- |-------------| -----|-----|-----|
 
 ### Выборы сенаторов
 
@@ -197,7 +197,7 @@ TX
 
 ###### VoteSenatorsHistory
 | ID        | UserId           | VoteUserId  | Time  | BlockId  |
-| ------------- |-------------| -----|-----|
+| ------------- |-------------| -----|-----|-----|
 
 
 
