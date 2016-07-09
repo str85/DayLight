@@ -628,11 +628,11 @@ TX
  * Подпись получателя запроса
 ```
 
-###### Spouses
+###### Spouses (Супруги)
 | ID        | SenderUserId  | RecipientUserId  | SmartContract  | Status  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 
-###### SpousesRequestsAcceptHistory
+###### SpousesRequestsAcceptHistory (История подтврждения запросов на супружество)
 | ID        |     SpousesId    |  Status  | BlockId |
 | ------------- | ------------- | ------------- | ------------- |
 
@@ -657,7 +657,7 @@ TX
  * Подпись получателя
 ```
 
-###### SpousesDivorce
+###### SpousesDivorce (Разводы)
 | ID        |     SpousesId    |  Time1S1  | Time1S2  | Time2S1  | Time2S2  | Time1Close  | Time2Close  | 
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |------------- |------------- |
 
@@ -704,12 +704,12 @@ Example: { "Payment": {"Period":"Monthly", "Type":"salary", "amount":"2000", "Re
  * Подпись главы государства
 ```
 
-###### Entries
+###### Entries (проводки)
 | ID        | Entries(JSON)  |
 | ------------- | ------------- |
 
 
-###### AutoPayments
+###### AutoPayments (автоплатежи)
 | ID        | Period  |Amount  |Type  | RecepientType  | RecepientId |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 
@@ -785,7 +785,7 @@ TX
  * Подпись ген. директора или доверенного лица
 ```
 
-###### LayoffHistory
+###### LayoffHistory (история увольнений)
 | ID        | EmployeesId  | Reason  |  Time  | BlockId  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 
@@ -801,7 +801,7 @@ TX
  * Подпись ген. директора или доверенного лица
 ```
 
-###### AwardsHistory
+###### AwardsHistory (история премий)
 | ID        | EmployeesId  | Reason  |  Time  | BlockId  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 
@@ -814,7 +814,7 @@ TX
  * Подпись ген. директора или доверенного лица
 ```
 
-###### PowerOfAttorney
+###### PowerOfAttorney (доверенности)
 | ID        | EmployeeID  | CompanyID  | Time  | BlockId  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 
@@ -831,7 +831,7 @@ TX
 Указание ID из балансовой таблицы нужно чтобы потом не проводить списание в ручном режиме.
 
 
-###### BalanceCompany
+###### BalanceCompany (балансы компаний)
 | ID        | ItemID  | Time  | BlockId  | 
 | ------------- | ------------- | ------------- | ------------- |
 
@@ -845,7 +845,7 @@ TX
  * Подпись ген. директора или доверенного лица
 ```
 
-###### BalanceCompanyHistory
+###### BalanceCompanyHistory (история балансов компаний)
 | ID        | BalanceCompanyId  | Reason  | Time  | BlockId  | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 
@@ -883,7 +883,7 @@ TX
 | ID        | CompanyId  | Privileges  |
 | ------------- | ------------- | ------------- |
 
-###### OwnersOfShares
+###### OwnersOfShares (владельцы акций)
 
 | ID        | UserId  | SharesId  | Amount  |
 | ------------- | ------------- | ------------- | ------------- |
@@ -900,7 +900,7 @@ TX
  * Подпись держателя голосующих акций
 ```
 
-###### VotesLiquidationCompany
+###### VotesLiquidationCompany (голоса за ликвидацию компании)
 
 | ID        | UserId  |Vote |
 | ------------- | ------------- | ------------- |
