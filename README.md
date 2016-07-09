@@ -99,7 +99,7 @@ TX
  * Подпись главы ЦБ
 ```
 
-###### ChangeCBNodeIpHistory
+###### ChangeCBNodeIpHistory (История изменения IP ноды)
 | ID        | CBID | UserId           | NodeIp  | BlockId  |
 | ------------- |-------------| -----|-----|-----|
 
@@ -113,9 +113,10 @@ TX1
  * Сумма
  * Подпись главы ЦБ
 ```
-###### EmissionHistoryAmount
+###### EmissionHistoryAmount (История эмиссии через начисление суммы)
 | ID        | CurrencyId           | Amount  | BlockId  |
 | ------------- |-------------| -----| -----|
+
 Увеличение средств на определенный процент
 ```
 TX2
@@ -123,7 +124,7 @@ TX2
  * Процент
  * Подпись главы ЦБ
 ```
-###### EmissionHistoryPct
+###### EmissionHistoryPct (История эмиссии через увеличение на определенный процент)
 | ID        | CurrencyId           |  Pct  | BlockId  |
 | ------------- |-------------| -----| -----|-----|
 
@@ -135,7 +136,7 @@ TX2
  * Процент
  * Подпись главы ЦБ
 ```
-###### EmissionHistoryCredit
+###### EmissionHistoryCredit (История эмиссии через увеличение средств на кредитных счетах)
 | ID        | CurrencyId           |  Amount  | Pct  | BlockId  |
 | ------------- |-------------| -----|-----|-----|-----|
 
@@ -153,7 +154,7 @@ TX
  * Подпись голосующего гражданина
 ```
 
-###### VoteCBHistory
+###### VoteCBHistory (История голосов за главу ЦБ)
 | ID        | UserId           | VoteUserId  | Time  | BlockId  |
 | ------------- |-------------| -----|-----|-----|
 
@@ -170,7 +171,7 @@ TX
 
 Если в настройках параметров государства выбрана мультипартийная политическая система, тогда любой гражданин достигший определнного в парметрах возраста может создать свою партию.
 
-###### PoliticalParties
+###### PoliticalParties (Политические партии)
 | ID        | Name           | Description  | Time  | 
 | ------------- |-------------| -----|-----|
 
@@ -183,7 +184,7 @@ TX
  * Подпись голосующего гражданина
  ```
 
-###### VotePoliticalPartiesHistory
+###### VotePoliticalPartiesHistory (История голосования за политические партии)
 | ID        | UserId           | PoliticalPartyId  | Time  | BlockId  |
 | ------------- |-------------| -----|-----|-----|
 
@@ -196,7 +197,7 @@ TX
  * Подпись голосующего гражданина
  ```
 
-###### VoteSenatorsHistory
+###### VoteSenatorsHistory (История голосования за сенаторов)
 | ID        | UserId           | VoteUserId  | Time  | BlockId  |
 | ------------- |-------------| -----|-----|-----|
 
@@ -211,7 +212,7 @@ TX
  * Подпись голосующего гражданина
  ```
 
-###### VoteHeadOfStateHistory
+###### VoteHeadOfStateHistory (История голосования за главу гос-ва)
 | ID        | UserId           | VoteUserId  | Time  | BlockId  |
 | ------------- |-------------| -----|-----|-----|
 
@@ -226,7 +227,7 @@ TX
  * Подпись главы гос-ва
  ```
 
-###### CountryOptions
+###### CountryOptions (Параметры страны)
 | CountryId        | Options           | PresidentUserId  |
 | ------------- |-------------| -----|
 
